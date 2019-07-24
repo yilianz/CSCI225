@@ -1,1 +1,1 @@
-# CSCI225
+# Master Materials for CSCI225 Web development. 
