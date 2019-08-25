@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-> *“Simple things should be simple, complex things should be possible.” ― Alan Kay* 
+> *“The future, always so clear to me, had become like a black highway at night. We were in uncharted territory now, making up history as we went along.” ― Sarah Connor* 
 
 
 ### Text Book 
@@ -37,7 +37,10 @@ alert(message);
 ### Useful Links
 * [W3.org](https://www.w3.org/)
 * [Visual Studio code](https://code.visualstudio.com/docs)
-
+* [HTML CSS Book](http://www.htmlandcssbook.com/)
+* [JavaScript Book](http://javascriptbook.com/)
+* [The W3C Markup Validation Service](https://validator.w3.org/)
+* [HTML5 Test](https://html5test.com/)
 
 
 
