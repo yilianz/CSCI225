@@ -10,7 +10,7 @@ layout: default
 ### Text Book 
 **[Web Design with HTML, CSS, JavaScript and jQuery Set by Jon Ducket](https://www.wiley.com/en-us/Web+Design+with+HTML%2C+CSS%2C+JavaScript+and+jQuery+Set-p-9781118907443)**
 
-You may find more students resource [here](http://www.htmlandcssbook.com/) and [here](http://javascriptbook.com/) and view the course materiels on [K:/drive](https://github.com/yilianz/csci225).
+You may find more students resource [here](http://www.htmlandcssbook.com/) and [here](http://javascriptbook.com/).
 
 
 ### Web development snapshot
