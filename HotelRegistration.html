@@ -1,0 +1,53 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Reservation</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/main.css" rel="stylesheet">
+       
+    </head>
+    <body>
+        <p id="message"></p>
+
+        <div>
+            <form>
+                <p>
+                Name: <input type ="text" id="name">
+                </p>
+                <p>
+                 Check in: <input type="date" id="checkin">  Check out: <input type="date" id="checkout">  
+                </p>
+                <p>
+                   Number of guest: <input type="number" id ="num" min="0" max="5">
+                </p>
+                <p>
+                    Room Type: <select id="room">
+                        <option>1 Bedroom Smaller Suite $139 </option>
+                        
+                        <option> 1 Bedroom Larger Suite $169 </option>
+                        <option> 1 Bedroom Junior Suite $289</option>
+                        <option> Grand Suite $289</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <input id="submit" type="button" value="submit">
+                    <input type="reset" value="clear">
+                </p>
+                <p>
+                    <input id="lists" type="button" value="List current reservations">
+                </p>
+                <div id ='result'>
+
+                </div>
+            </form>
+            
+        </div>
+
+        <script src ="hotel.js"></script>
+    </body>
+</html>
