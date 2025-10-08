@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elisha McCanick: Contact Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style type="text/css">
+            .container-xxl{
+                background-color: hsl(207,100%,34%);
+                padding: 0;
+            }
+            .navbar{
+                background-color: hsl(220,100%,21%);
+                color: hsl(220,0%,84%)
+            }
+
+            iframe{
+                margin-left: 20px;
+                border-top: 10px solid hsla(204, 65%,60%,0.8);
+                border-left: 20px solid hsla(204, 65%,60%,0.8);
+                border-right: 20px solid hsla(204, 65%,60%,0.8);
+                border-bottom: 20px solid hsla(204, 65%,60%,0.8);
+                box-shadow: 4px 4px 8px hsl(220,100%,21%);
+            }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container-xxl">
+        <div class="row">
+            <div class="col">
+                <div class="navbar navbar-expand-lg">
+                    <ul class="navbar nav">
+                        <li class="nav-item"><a class="nav-link" href="https://www.usca.edu">USC Aiken</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#assignment">Assignments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Information</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/yilianz">My GitHub</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://open.spotify.com/show/2Swqg3KD86p2dhRar7s6fk?si=3690cb4fdd244bfb">My
+                                Favorite
+                                Podcast</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <iframe src="https://www.youtube.com/embed/qHYQRaDDVGg"
+                    title="Hallow Queen - Danny Baranowsky"></iframe>
+            </div>
+            <div class="col">
+                <form name="feedback">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="fN" name="fname" placeholder="anonymous" required>
+                        <label for="fN">First Name: </label>
+                    </div>
+                    <div>
+                        <label>Last Name:<span class="star">*</span> <input type="text" name="lname"
+                                placeholder="anonymous" required></label>
+                        <br>
+                        <label>Email Address: <input type="email" name="mail" placeholder="name@domain.com"
+                                pattern="[^@\s]+@[^@\s]+\.[^@\s]+"></label>
+                    </div>
+
+
+                    <div>
+                        <label>
+                            Would you recommend this website to others?
+                        </label>
+                        <div class="form-check form-check-inline">
+                
+                        <label class="form-check-label"><input class="form-check-input" type="radio" name="recommend" value="yes">Yes</label>
+                        
+                        <label class="form-check-label" ><input class="form-check-input"  type="radio" name="recommend" value="no">No</label>
+                        </div>
+                    </div>
+
+                    <div><label>
+                            Preferred Site:
+                            <br>
+                            <select class="form-select" id="favweb" name="favWeb">
+                                <option value="Google">Google</option>
+                                <option value="Twitter">Twitter</option>
+                                <option value="Bluesky">Bluesky</option>
+                                <option value="Discord">Discord</option>
+                                <option value="Youtube">Youtube</option>
+                                <option value="Twitch">Twitch</option>
+                                <option value="Ko-fi">Ko-fi</option>
+                                <option value="Patreon">Patreon</option>
+                            </select>
+                        </label></div>
+
+                    <div>
+                        <label>
+                            How would you rate this site?
+                            <br>
+                            <input type="range" class="form-range" name="rating" min="1" max="10" value="5"
+                                list="markers">
+                            <datalist id="markers">
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                            </datalist>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            Additional Comments:
+                            <br>
+                            <textarea class ="form-control" name="comment" placeholder="I suggest..." cols="48" rows="9"></textarea>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>(Optional) Please insert a picture of your cute pet
+                            <br>
+                            <input type="file" name="pet">
+                        </label>
+                    </div>
+
+                    <div>
+                        <input type="submit" class="btn btn-primary" name="submit" value="Submit">
+                        <input type="reset" name="reset" value="Reset Form">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
